@@ -93,3 +93,9 @@ a{
 .img_servicios img {
     width: 100%;
 }
+
+.footer{
+    height: 66px;
+    text-align: center;
+    margin-top: 33px;
+}
