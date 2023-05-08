@@ -5,19 +5,54 @@
     font-family: 'Ysabeau', sans-serif;
 }
 
+.header{
+    /* display: block; */
+    /* width: 100%; */
+    text-align: center;
+    
+}
+
+body{
+    background: linear-gradient(0deg,  #64bfe0 21%, white 100%); 
+    height: 600px;
+   
+}
+
 .nav_1{
     display: flex;
     justify-content: space-around;
+    background-color: #009FD7;
+    box-shadow: 0 0 12px #3f3f3f;
 }
 
 a{
     text-decoration: none;
+    color: aliceblue;
 }
 
 .principal{
     justify-content: space-between;
+    margin-top: 21px;
 }
 
-header h1{
+.historia{
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.contactanos{
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+
+.logo img{
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+.titulo{
     text-align: center;
 }
+

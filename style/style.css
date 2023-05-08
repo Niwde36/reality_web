@@ -10,13 +10,12 @@
     
     background: #009FD7;
     background: linear-gradient(360deg,  #FDFE66 3%, #009FD7 50%, #096282 75%, #054541 100%); 
-    margin: 0 auto;
-    
+   
 }
 
 .header_logo{
-    display: block;
-    width: 100%;
+    /* display: block;
+    width: 100%; */
     text-align: center;
     
 }
