@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.nav_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.principal{
+    justify-content: space-between;
+}
+
+header h1{
+    text-align: center;
+}
