@@ -126,6 +126,18 @@ a{
 
 }
 
+.img_pop{
+    text-align: center;
+}
+
+.img_pop img{
+    width: 90px;
+}
+
+.img_pop h1{
+    margin: 0 auto; 
+
+}
 
 .footer{
     text-align: center;
