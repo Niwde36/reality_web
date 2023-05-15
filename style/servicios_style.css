@@ -68,19 +68,35 @@ a{
     width: 90%;
 }
 
+.linea{
+    height: 3px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #054541;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.servicios{
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 21px;
+    margin-top: 21px;
+}
+
 .img_desarrollo{
-    display: flex;
-    /* align-content: center; */
+    text-align: center;
 }
 
 .img_desarrollo img{
-    width: 60px;
-    margin-left: 3px;
-    border-radius: 50%;
+    width: 90px;
 }
 
 .img_desarrollo h1{
-    margin: 12px;
+    margin: 0 auto;
+
 }
 
 .footer{
