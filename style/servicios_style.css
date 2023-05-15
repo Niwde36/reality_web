@@ -87,6 +87,14 @@ a{
     margin-top: 21px;
 }
 
+.servicios img{
+    margin-top: 21px;
+}
+
+.servicios p{
+    margin: 21px 0 12px 0;
+}
+
 .img_desarrollo{
     text-align: center;
 }
@@ -135,6 +143,19 @@ a{
 }
 
 .img_pop h1{
+    margin: 0 auto; 
+
+}
+
+.img_juegos{
+    text-align: center;
+}
+
+.img_juegos img{
+    width: 90px;
+}
+
+.img_juegos h1{
     margin: 0 auto; 
 
 }
