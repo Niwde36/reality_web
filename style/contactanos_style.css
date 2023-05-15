@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.header{
+    display: block; 
+    width: 100%;
+    text-align: center;
+    
+}
+
+body{
+    background: linear-gradient(0deg,  #64bfe0 21%, white 100%);
+    text-align: center;
+}
+
+.nav_1{
+    display: flex;
+    background-color: #009FD7;
+    box-shadow: 0 0 12px #3f3f3f;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.principal{
+    margin: 12px 0 12px 0;
+}
+
+.historia{
+    margin: 12px 0 12px 0;
+}
+
+.servicios{
+    margin: 12px 0 12px 0;
+}
+
+
+.logo img{
+    width: 120px;
+    margin-top: 21px;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.whatsapp{
+    
+    align-content: space-between;
+    margin: 90px 36px 90px 36px;
+    font-size: x-large;
+
+}
+
+.whatsapp img{
+    width: 60px;
+}
+.mail{
+    
+    align-content: space-between;
+    margin: 90px 36px 120px 36px;
+    font-size: x-large;
+}
+
+.mail img{
+    width: 60px;
+}
