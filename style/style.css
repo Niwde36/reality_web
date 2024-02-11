@@ -9,8 +9,8 @@
 .big_box{
     
     background: #009FD7;
-    background: linear-gradient(360deg,  #FDFE66 3%, #009FD7 50%, #096282 75%, #054541 100%); 
-   
+    background: linear-gradient(360deg,  #ffffce 3%, #009FD7 50%, #096282 75%, #054541 100%); 
+
 }
 
 .header_logo{
@@ -62,39 +62,88 @@ a{
 }
 
 .img_historia {
-    width: 51%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
     box-shadow: 0px 0px 12px #3f3f3f;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .img_historia img{
     width: 100%;
+    margin-top: 9px;
 }
 
 .img_contactanos {
-    width: 51%;
+    width: 100%;
     margin: 0 auto;
     box-shadow: 0px 0px 12px #3f3f3f;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
 
 }
 
 .img_contactanos img {
     width: 100%;
+    margin-top: 9px;
 }
 
 .img_servicios {
-    width: 51%;
+    width: 100%;
     margin: 0 auto;
     box-shadow: 0px 0px 12px #3f3f3f;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
 
 }
 
 .img_servicios img {
     width: 100%;
+    margin-top: 9px;
 }
 
 .footer{
     height: 66px;
     text-align: center;
     margin-top: 33px;
+}
+
+@media (min-width:768px) {
+
+    .img_historia {
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 12px #3f3f3f;
+    }
+    
+    .img_historia img{
+        width: 50%;
+    }
+    
+    .img_contactanos {
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 12px #3f3f3f;
+    
+    }
+    
+    .img_contactanos img {
+        width: 50%;
+    }
+    
+    .img_servicios {
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 12px #3f3f3f;
+    
+    }
+    
+    .img_servicios img {
+        width: 50%;
+    }
+    
+
 }
